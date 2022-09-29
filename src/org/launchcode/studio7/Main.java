@@ -14,10 +14,13 @@ public class Main {
         cd.readData();
         dvd.readData();
 
-        System.out.println(cd.writeData(275));
-        System.out.println(dvd.writeData(8000));
+        System.out.println(cd.writeData(235));
+        System.out.println(dvd.writeData(-859));
 
         System.out.println(cd.diskInfo());
         System.out.println(dvd.diskInfo());
     }
 }
+
+
+
